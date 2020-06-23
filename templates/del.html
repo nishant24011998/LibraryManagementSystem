@@ -1,0 +1,16 @@
+
+<html>
+<head>
+<img src="{{url_for('static', filename='lib.jpg')}}" />
+<center>Delete Book</center>
+</head>
+<body>
+<center>
+<form action = "{{ url_for('delete') }}" method = "POST">
+	<p>Book ID::<input name="ID" type="text" /></p>
+
+<center><input name="submit" style="width: 152px; height: 50px" type="submit" value="submit1"></center>
+</form>
+</center>
+</body>
+</html>

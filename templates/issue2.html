@@ -1,0 +1,17 @@
+
+<html>
+<head>
+<img src="{{url_for('static', filename='lib.jpg')}}" />
+<center>Issue Book</center>
+</head>
+<body>
+<center>
+<form action = "{{ url_for('issue') }}" method = "POST">
+<p>Book ID:<input name="S_ID" type="text" /></p>
+<p>Student:<input name="B_ID" type="text" /></p>
+<label id="S_ID">
+</center>
+<center><input name="submit" style="width: 152px; height: 50px" type="submit" value="submit1"></center>
+</form>
+</body>
+</html>

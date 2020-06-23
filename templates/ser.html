@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+<meta content="en-gb" http-equiv="Content-Language">
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+	font-size: xx-large;
+}
+.auto-style5 {
+	font-size: x-large;
+	background-color: #FFFFFF;
+}
+.auto-style6 {
+	text-decoration: underline;
+}
+.auto-style7 {
+	text-align: left;
+}
+.auto-style8 {
+	text-align: center;
+}
+.auto-style9 {
+	font-size: large;
+}
+.auto-style10 {
+	background-color: #FF00FF;
+}
+.auto-style11 {
+	background-color: #FFFF00;
+}
+.auto-style12 {
+	font-size: large;
+	background-color: #FFFF00;
+}
+</style>
+</head>
+<body>
+<img src="{{url_for('static', filename='lib.jpg')}}" />
+<form action = "{{ url_for('search') }}" method = "POST">
+<div class="auto-style1">
+	<label id="Label1">
+	<br><span class="auto-style6"><em><strong><span class="auto-style10">S</span><span class="auto-style11">e</span><span class="auto-style10">a</span><span class="auto-style11">r</span><span class="auto-style10">c</span><span class="auto-style11">h</span>
+	<span class="auto-style11">a</span> <span class="auto-style10">b</span><span class="auto-style11">o</span><span class="auto-style10">o</span><span class="auto-style11">k</span></strong></em></span> <br></label>
+	<form method="post">
+		<form method="post">
+		<div class="auto-style8">
+			<center>
+			</span><input class="auto-style9" name="Radio1" type="radio" value="id"><span class="auto-style9"><span class="auto-style10">SEARCH BY BOOK Id</span><br>&nbsp;
+			</span><input class="auto-style9" name="Radio1" type="radio" value="Subject"><span class="auto-style9"><span class="auto-style11">SEARCH BY SUBJECT</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span><input class="auto-style9" name="Radio1" type="radio" value="Name"><span class="auto-style9"><span class="auto-style10">SEARCH BY BOOK NAME</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span><input class="auto-style9" name="Radio1" type="radio" value="Author"><span class="auto-style12">SEARCH BY AUTHOR</span><br>&nbsp;&nbsp;
+			<br><sub>&nbsp;&nbsp;&nbsp;&nbsp; </sub>
+			</center>
+<input name="T" placeholder="Search......." style="width: 428px; height: 50px" type="text"></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="Submit1" style="width: 152px; height: 50px" type="submit" value="submit"></form>
+</div>
+
+</form>
+<p class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label id="Label2"><span class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></label></p>
+<p class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; </p>
+</form>
+</body>
+</html>

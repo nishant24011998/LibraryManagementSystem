@@ -1,0 +1,20 @@
+﻿
+<html>
+<head>
+<img src="{{url_for('static', filename='lib.jpg')}}" />
+<center>Issue Book</center>
+</head>
+<body>
+<center>
+<form action = "{{ url_for('add') }}" method = "POST">
+<p>Book Name::<input name="Name" type="text" /></p>
+	<p>Book ID::<input name="ID" type="text" /></p>
+<p>Author::<input name="Author" type="text" /></p>
+<p>Subject::<input name="Subject" type="text" /></p>
+<p>Category::<input name="Category" type="text" /></p>
+
+<center><input name="submit" style="width: 152px; height: 50px" type="submit" value="submit1"></center>
+</form>
+</center>
+</body>
+</html>
